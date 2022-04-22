@@ -1,0 +1,53 @@
+http://www.scotusblog.com/feed/ "SCOTUSblog" politics
+http://www.theatlantic.com/feed/all/ "The Atlantic" articles
+http://feeds.propublica.org/propublica/main "~ProPublica" politics
+http://rss.slashdot.org/Slashdot/slashdotMain "Slashdot"
+https://feeds.feedburner.com/dslreports "~DSLreports" technology
+https://theconversation.com/us/articles.atom "The Conversation" articles
+http://feeds.reuters.com/reuters/scienceNews "Reuters"
+http://feeds.reuters.com/reuters/topNews "Reuters"
+http://feeds.reuters.com/reuters/technologyNews "Reuters" technology
+http://feeds.hbr.org/harvardbusiness/ "HBRorg" economics
+https://auth0.com/blog/rss.xml "Auth0 Blog" technology
+https://longform.org/feed.rss "Longform" articles
+https://www.eff.org/rss/updates.xml "Deeplinks"
+https://www.investopedia.com/feedbuilder/feed/getfeed/?feedName=rss_faqs "~Investopedia FAQs" economics
+https://www.investopedia.com/feedbuilder/feed/getfeed/?feedName=rss_stock_analysis "~Investopedia Stock Analysis" economics
+https://www.investopedia.com/feedbuilder/feed/getfeed/?feedName=rss_articles "~Investopedia Articles"
+https://www.investopedia.com/feedbuilder/feed/getfeed/?feedName=rss_tod "~Investopedia TOD" economics
+https://www.internetsociety.org/feed/ "Internet Society"
+http://feeds.aps.org/rss/recent/physics.xml "~APS"
+http://www.ipol.im/feed/articles.rss "IPOL"
+https://css-tricks.com/feed/ "CSS-Tricks" technology
+http://feeds.bbci.co.uk/news/technology/rss.xml "BBC News" technology
+http://feeds.bbci.co.uk/news/rss.xml "BBC News"
+https://www.technologyreview.com/stories.rss "~MIT Technology Review" technology
+http://www.gamasutra.com/blogs/rss/ "Gamasutra"
+http://feeds.feedburner.com/GamasutraNews "Gamasutra"
+http://feeds.feedburner.com/GamasutraConsolePCNews "Gamasutra"
+http://feeds.feedburner.com/GamasutraIndependentNews "Gamasutra"
+https://boingboing.net/feed "Boing Boing"
+https://www.politico.com/rss/healthcare.xml "Politico"
+https://www.politico.com/rss/energy.xml "Politico"
+https://www.politico.com/rss/defense.xml "Politico"
+https://www.politico.com/rss/economy.xml "Politico" economics
+https://www.politico.com/rss/congress.xml "Politico" politics
+https://www.politico.com/rss/politics08.xml "Politico" politics
+https://phoronix.com/rss.php "Phoronix" technology
+https://feeds.feedburner.com/arstechnica/index "Ars Technica"
+#https://www.i-programmer.info/index.php?option=com_ninjarsssyndicator&feed_id=3&format=raw "I Programmer"
+https://phys.org/rss-feed/ "~Physorg"
+https://news.ycombinator.com/rss "Hacker News"
+https://www.motherjones.com/feed/ "Mother Jones" articles
+https://feeds.feedburner.com/TechCrunch/ "TechCrunch"
+http://rss.sciam.com/sciam/technology "Scientific American" technology
+https://www.recode.net/rss/index.xml "Recode" articles
+https://www.wired.com/feed/category/science/latest/rss "~Wired Science" technology
+https://www.wired.com/feed/rss "Wired" articles
+https://www.wired.com/feed/category/security/latest/rss "~Wired Security"
+https://www.reddit.com/r/AskNetsec+AskReddit+Bitcoin+CR10+Documentaries+IAmA+InternetIsBeautiful+Music+PCmasterraceMC+PcMasterRaceBuilds+WritingPrompts+announcements+askscience+blog+books+crypto+dataisbeautiful+functionalprint+gadgets+gaming+linux+listentothis+netsec+news+ouya+ouyasideload+pcmasterrace+pcmasterrace_irl+science+space+sysadmin+yubikey/.rss "~Reddit"
+https://lawfareblog.com/feed "Lawfare" articles
+https://lawfareblog.com/rss.xml "Lawfare"
+https://blog.adafruit.com/feed/ "~Adafruit Industries"
+http://economist.com/rss/science_and_technology_rss.xml "~The Economist: Science and Technology" technology
+http://economist.com/rss/special_reports_rss.xml "~The Economist: Special Reports" economics

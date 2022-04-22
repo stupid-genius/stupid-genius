@@ -1,0 +1,13 @@
+EDITOR=vim
+HISTCONTROL=ignoreboth
+shopt -s histappend
+HISTSIZE=1000
+HISTFILESIZE=2000
+HISTTIMEFORMAT="%F %T "
+alias r='reset'
+
+export GPG_TTY=$(tty)
+
+#source ~/.bin/git-prompt.sh
+export PS1='\[\033]0;\#: \W\007\]\[\033[32m\]\u@\h \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ '
+
