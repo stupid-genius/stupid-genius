@@ -7,12 +7,14 @@ cmap w!! w !sudo tee > /dev/null %
 
 let g:EditorConfig_exclude_patterns = ['.git/COMMIT_EDITMSG']
 let g:EditorConfig_max_line_indicator = "none"
-let g:ale_linters = {'javascript': ['eslint'], 'typescript': ['eslint']}
-let g:ale_fixers = {'javascript': ['eslint'], 'typescript': ['deno']}
-" let g:ale_fixers = {'javascript': ['eslint']}
+let g:ale_linters = {'javascript': ['eslint', 'deno'], 'typescript': ['deno']}
+let g:ale_fixers = {'javascript': ['eslint', 'deno'], 'typescript': ['deno']}
 let g:ale_linters_explicit = 1
+" let g:airline#extensions#ale#enabled = 1
 set updatetime=100
 
+" nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+" nmap <silent> <C-j> <Plug>(ale_next_wrap)
 nmap <silent> t<C-n> :TestNearest<CR>
 nmap <silent> t<C-f> :TestFile<CR>
 nmap <silent> t<C-s> :TestSuite<CR>
@@ -22,6 +24,6 @@ nmap <silent> t<C-s> :TestSuite<CR>
 packadd! dracula
 colorscheme dracula
 highlight ALEWarningLine ctermbg=darkblue
-highlight ALEErrorLine ctermbg=darkred
+highlight ALEErrorLine ctermbg=lightred ctermfg=black
 highlight DiffChange ctermbg=darkmagenta
 highlight DiffAdd ctermbg=darkblue

@@ -1,7 +1,7 @@
 [user]
 	name = Allen Ng
-	email = accounts@stupid-genius.com
-	signingKey = 29C35240
+	email = allen.ng@cosaic.io
+	signingKey = 97853871
 [core]
 	editor = vim
 	autocrlf = false

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -s https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh > ~/bin/git-prompt.sh
+curl -s https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh  > ~/.bin/git-prompt.sh
