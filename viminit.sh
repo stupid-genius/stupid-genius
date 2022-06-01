@@ -10,7 +10,8 @@ THEMES=$VIMPACK/themes/start
 git clone --depth 1 https://github.com/dense-analysis/ale.git $PLUGINS/ale
 git clone --depth 1 https://github.com/editorconfig/editorconfig-vim.git $PLUGINS/editorconfig
 git clone --depth 1 https://github.com/jamessan/vim-gnupg.git $PLUGINS/vimgpg
-git clone --depth 1 https://github.com/mhinz/vim-signify.git $PLUGINS/signify
+# git clone --depth 1 https://github.com/mhinz/vim-signify.git $PLUGINS/signify
+git clone --depth 1 https://github.com/airblade/vim-gitgutter.git $PLUGINS/gitgutter
 # git clone --depth 1 https://github.com/neoclide/coc.nvim.git $PLUGINS/coc
 git clone --depth 1 https://github.com/tpope/vim-commentary.git $PLUGINS/commentary
 git clone --depth 1 https://github.com/tpope/vim-surround.git $PLUGINS/surround
