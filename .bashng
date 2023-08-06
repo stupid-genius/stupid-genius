@@ -1,16 +1,19 @@
 set -a
-EDITOR=vim
-HISTCONTROL=ignoreboth
 shopt -s histappend
-HISTSIZE=1000
-HISTFILESIZE=2000
-HISTTIMEFORMAT="%F %T "
+
+source ~/.bin/dotfiles/powerbash.sh
+source ~/.bin/dotfiles/agent.sh
+source ~/.bin/git-prompt.sh
+
 alias r='reset'
 alias ls='ls -lahG'
+alias serve='npx http-server -c-1'
 
-export GPG_TTY=$(tty)
-
-source ~/.bin/git-prompt.sh
-export PATH=$PATH:~/.bin
-export PS1='\[\033]0;\#: \W\007\]\[\033[32m\]\u@\h \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n\[$(iterm2_prompt_mark)\]$ '
-
+EDITOR=vim
+GPG_TTY=$(tty)
+HISTCONTROL=ignoreboth
+HISTFILESIZE=2000
+HISTSIZE=1000
+HISTTIMEFORMAT="%F %T "
+PATH=$PATH:~/.bin
+PS1='\[\033]0;\#: \W\007\]\[\033[32m\]\u@\h \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n\[$(iterm2_prompt_mark)\]$ '

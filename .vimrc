@@ -1,5 +1,7 @@
 set ai hlsearch noet nowrap nu rnu si splitbelow splitright
 set foldlevelstart=1 foldmethod=indent history=250 sw=4 ts=4 termwinsize=15x0 visualbell t_vb=
+set wildmode=longest:list,full
+set wildmenu
 syntax on
 filetype plugin indent on
 

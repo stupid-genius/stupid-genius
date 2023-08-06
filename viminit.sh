@@ -14,6 +14,7 @@ git clone --depth 1 https://github.com/jamessan/vim-gnupg.git $PLUGINS/vimgpg
 git clone --depth 1 https://github.com/airblade/vim-gitgutter.git $PLUGINS/gitgutter
 # git clone --depth 1 https://github.com/neoclide/coc.nvim.git $PLUGINS/coc
 git clone --depth 1 https://github.com/tpope/vim-commentary.git $PLUGINS/commentary
+git clone --depth 1 https://github.com/tpope/vim-fugitive.git $PLUGINS/fugitive
 git clone --depth 1 https://github.com/tpope/vim-surround.git $PLUGINS/surround
 git clone --depth 1 https://github.com/vim-airline/vim-airline $PLUGINS/airline
 git clone --depth 1 https://github.com/vim-test/vim-test.git $PLUGINS/vimtest
